@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه من</title>
+    
+       
+</head>
+<body>
+    <h1>سلام 👋</h1>
+    <p>به صفحه من خوش آمدید</p>
+    <button class="btn" onclick="openSite()">باز کردن radyabalfa.com</button>
+
+    <script>
+        // تلاش برای باز کردن سایت به محض بارگذاری صفحه
+        // (توجه: مرورگرهای مدرن ممکن است این را مسدود کنند)
+        function openSite() {
+            window.open('https://radyabalfa.com', '_blank');
+        }
+
+        // تلاش خودکار در زمان بارگذاری
+        // این روش ممکن است توسط مرورگر مسدود شود
+        window.onload = function() {
+            // با یک تاخیر کوتاه تلاش می‌کنیم
+            setTimeout(function() {
+                try {
+                    // تلاش با پنجره جدید
+                    const win = window.open('https://radyabalfa.com', '_blank');
+                    // اگر پنجره مسدود شد، کاربر می‌تواند با دکمه باز کند
+                } catch(e) {
+                    console.log('پنجره خودکار مسدود شد. لطفاً روی دکمه کلیک کنید.');
+                }
+            }, 500);
+        };
+
+        // پیام به کاربر در صورتی که پنجره خودکار باز نشد
+        console.log('اگر سایت به صورت خودکار باز نشد، روی دکمه کلیک کنید.');
+    </script>
+</body>
+</html>
