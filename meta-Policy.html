@@ -1,73 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.8;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            background: #f9f9f9;
-            color: #222;
-        }
-        h1 {
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 10px;
-        }
-        h2 {
-            margin-top: 25px;
-            color: #1a1a1a;
-        }
-        a {
-            color: #0066cc;
-            word-break: break-all;
-        }
-        .footer {
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #555;
-            border-top: 1px solid #ddd;
-            padding-top: 15px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacy Policy for Alfa's Instagram automated and AI-assisted messaging service." />
+  <meta name="robots" content="index, follow" />
+  <title>Privacy Policy | Alfa</title>
+
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #1d4ed8;
+      --border: #e5e7eb;
+      --shadow: 0 12px 35px rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    .container {
+      width: min(920px, calc(100% - 32px));
+      margin: 48px auto;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .header {
+      padding: 44px 48px 30px;
+      background: linear-gradient(135deg, #eff6ff, #ffffff);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: #dbeafe;
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.4px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(32px, 5vw, 46px);
+      line-height: 1.2;
+      color: #111827;
+    }
+
+    .updated {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .content {
+      padding: 40px 48px 48px;
+    }
+
+    h2 {
+      margin-top: 34px;
+      margin-bottom: 12px;
+      font-size: 23px;
+      line-height: 1.35;
+      color: #111827;
+    }
+
+    h2:first-of-type {
+      margin-top: 0;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    ul {
+      margin: 8px 0 18px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 7px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .notice {
+      margin: 24px 0;
+      padding: 18px 20px;
+      border-left: 4px solid var(--primary);
+      border-radius: 10px;
+      background: #eff6ff;
+    }
+
+    .contact-box {
+      margin-top: 16px;
+      padding: 18px 20px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #f9fafb;
+    }
+
+    footer {
+      padding: 22px 48px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+      background: #fafafa;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        margin: 20px auto;
+      }
+
+      .header,
+      .content {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+
+      .header {
+        padding-top: 32px;
+      }
+
+      footer {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+      }
+
+      .container {
+        width: 100%;
+        margin: 0;
+      }
+
+      .card {
+        border: none;
+        box-shadow: none;
+      }
+    }
+  </style>
 </head>
+
 <body>
+  <main class="container">
+    <article class="card">
+      <header class="header">
+        <span class="brand">ALFA</span>
+        <h1>Privacy Policy</h1>
+        <p class="updated"><strong>Last Updated:</strong> July 27, 2026</p>
+      </header>
 
-    <h1>Privacy Policy</h1>
-    <p><strong>Last Updated:</strong> July 27, 2026</p>
+      <section class="content">
+        <p>
+          Alfa provides an automated and AI-assisted messaging service for responding
+          to messages sent to our Instagram account. This Privacy Policy explains what
+          information may be processed, how it is used, and the choices available to users.
+        </p>
 
-    <h2>1. Data Collection</h2>
-    <p>This application <strong>does not collect, store, or retain any personal or non-personal user data.</strong></p>
-    <p>The only data processed are messages sent by users to the Instagram page, which are transmitted through the <strong>official Meta API</strong> solely for the purpose of displaying and responding in real-time.</p>
+        <h2>1. Information We Process</h2>
+        <p>
+          When a user sends a direct message to the Alfa Instagram account, the application
+          may process the following information:
+        </p>
+        <ul>
+          <li>Instagram account identifier or username;</li>
+          <li>Message content sent by the user;</li>
+          <li>Message date and time;</li>
+          <li>Technical information provided through the official Meta API.</li>
+        </ul>
+        <p>
+          We do not intentionally collect sensitive personal information. Users should not
+          send passwords, banking information, identification documents, medical information,
+          or other confidential data through Instagram Direct Messages.
+        </p>
 
-    <h2>2. Use of Data</h2>
-    <ul>
-        <li>Messages are processed <strong>instantaneously</strong> for intelligent response generation.</li>
-        <li>No logs, history, or copies of messages are stored on our servers.</li>
-        <li>Data is <strong>never used</strong> for advertising, targeting, or profiling purposes.</li>
-    </ul>
+        <h2>2. How We Use Information</h2>
+        <p>Information is processed only for the following purposes:</p>
+        <ul>
+          <li>Receiving messages through the official Meta API;</li>
+          <li>Understanding the user's request;</li>
+          <li>Generating an automated or AI-assisted response;</li>
+          <li>Sending the response back to the user through Instagram;</li>
+          <li>Maintaining the security and proper operation of the service.</li>
+        </ul>
+        <p>
+          Information is not used for behavioral advertising, unrelated marketing,
+          or the sale of personal data.
+        </p>
 
-    <h2>3. Data Sharing</h2>
-    <p>We do not share data with any third parties, except for:</p>
-    <ul>
-        <li><strong>Meta Platforms, Inc.</strong>, through whose API messages are routed for processing. For more information on how Meta handles data, please review their Privacy Policy:<br>
-        <a href="https://www.facebook.com/privacy/policy" target="_blank">https://www.facebook.com/privacy/policy</a></li>
-    </ul>
+        <h2>3. Automated and AI Processing</h2>
+        <p>
+          Messages may be processed automatically using artificial intelligence services
+          in order to generate relevant responses.
+        </p>
+        <p>
+          Depending on the technical configuration of the service, message content may be
+          transmitted to service providers used for automation, hosting, artificial
+          intelligence processing, or system operation. These providers process information
+          only as necessary to provide their services.
+        </p>
 
-    <h2>4. User Rights</h2>
-    <p>Since no data is stored, requests for data deletion or modification are not applicable. However, users may stop the conversation or revoke the bot's access at any time directly through Instagram.</p>
+        <div class="notice">
+          Users should avoid sending confidential or highly sensitive information through
+          direct messages.
+        </div>
 
-    <h2>5. Contact Us</h2>
-    <p>For any questions or concerns, please contact us at:<br>
-    📧 <a href="mailto:alfatracker38@gmail.com">alfatracker38@gmail.com</a></p>
+        <h2>4. Data Storage and Retention</h2>
+        <p>
+          Alfa retains information only for as long as reasonably necessary to provide the
+          messaging service, maintain security, troubleshoot technical issues, or comply with
+          legal obligations.
+        </p>
+        <p>
+          Some technical logs or workflow execution records may be retained temporarily by
+          our automation, hosting, or artificial intelligence service providers.
+        </p>
+        <p>
+          Where technically possible, message information and related logs are deleted or
+          anonymized when they are no longer required.
+        </p>
 
-    <div class="footer">
-        &copy; 2026 Alfa. All rights reserved.
-    </div>
+        <h2>5. Data Sharing</h2>
+        <p>We do not sell or rent users' personal information.</p>
+        <p>
+          Information may be processed or shared only with service providers necessary for
+          operating the application, including:
+        </p>
+        <ul>
+          <li>Meta Platforms, Inc., for receiving and sending Instagram messages;</li>
+          <li>Artificial intelligence service providers used to generate responses;</li>
+          <li>Automation, hosting, database, or infrastructure providers used to operate the application;</li>
+          <li>Government authorities where disclosure is required by applicable law.</li>
+        </ul>
+        <p>
+          Meta's Privacy Policy is available at:
+          <a href="https://www.facebook.com/privacy/policy" target="_blank" rel="noopener noreferrer">
+            https://www.facebook.com/privacy/policy
+          </a>
+        </p>
 
+        <h2>6. Data Security</h2>
+        <p>
+          We use reasonable technical and organizational measures to protect information from
+          unauthorized access, misuse, alteration, or disclosure.
+        </p>
+        <p>
+          However, no internet-based service or electronic transmission method can be
+          guaranteed to be completely secure.
+        </p>
+
+        <h2>7. User Rights and Data Deletion</h2>
+        <p>
+          Users may request information about the data associated with their interaction with
+          Alfa, or request deletion of available stored information, by contacting us at:
+        </p>
+
+        <div class="contact-box">
+          <strong>Email:</strong>
+          <a href="mailto:alfatracker38@gmail.com">alfatracker38@gmail.com</a>
+        </div>
+
+        <p>
+          Please include the Instagram username used to contact Alfa so that the request can
+          be identified.
+        </p>
+        <p>
+          Users may also stop interacting with the automated service, delete their messages
+          from Instagram where available, block the Instagram account, or revoke relevant
+          permissions through their Meta or Instagram account settings.
+        </p>
+        <p>
+          We will review valid requests and respond within a reasonable period, subject to
+          technical and legal limitations.
+        </p>
+
+        <h2>8. Children's Privacy</h2>
+        <p>
+          This service is not intentionally directed to children under the minimum age required
+          to use Instagram in their country. We do not knowingly collect personal information
+          from children through this application.
+        </p>
+
+        <h2>9. Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy when the application's functionality, service
+          providers, or legal obligations change.
+        </p>
+        <p>
+          The updated version will be published on this page with a revised
+          “Last Updated” date.
+        </p>
+
+        <h2>10. Contact Us</h2>
+        <p>For privacy questions, concerns, or data deletion requests, contact:</p>
+
+        <div class="contact-box">
+          <strong>Email:</strong>
+          <a href="mailto:alfatracker38@gmail.com">alfatracker38@gmail.com</a>
+        </div>
+      </section>
+
+      <footer>
+        © 2026 Alfa. All rights reserved.
+      </footer>
+    </article>
+  </main>
 </body>
 </html>
